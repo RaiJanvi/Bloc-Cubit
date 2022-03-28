@@ -12,4 +12,5 @@ class CounterState{
 
   @override
   List<Object> get props => [counterValue, wasIncremented!];
+
 }
