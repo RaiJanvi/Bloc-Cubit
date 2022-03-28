@@ -11,5 +11,5 @@ class CounterState{
   const CounterState({required this.counterValue, this.wasIncremented});
 
   @override
-  List<Object> get props => [];
+  List<Object> get props => [counterValue, wasIncremented!];
 }
